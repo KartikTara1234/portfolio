@@ -1,0 +1,814 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"
+    >
+      (function () {
+        emailjs.init("rMpkUeqstIurGPNOv");
+      })();
+    </script>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!--=============== FAVICON ===============-->
+    <link
+      rel="shortcut icon"
+      href="assets/img/favicon.png"
+      type="image/x-icon"
+    />
+
+    <!--=============== BOXICONS ===============-->
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+
+    <!--=============== SWIPER CSS ===============-->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+
+    <!--=============== CSS ===============-->
+    <link rel="stylesheet" href="assets/css/styles.css" />
+
+    <title>Portfolio of Kartik Tara</title>
+  </head>
+  <body>
+    <!--=============== HEADER ===============-->
+    <header class="header" id="header">
+      <nav class="nav container">
+        <a href="#" class="nav__logo">Kartik.</a>
+
+        <div class="nav__menu">
+          <ul class="nav__list">
+            <li class="nav__item">
+              <a href="#home" target="_parent" class="nav__link active-link">
+                <i class="bx bx-home-alt"></i>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#about" target="_parent" class="nav__link">
+                <i class="bx bx-user"></i>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#skills" target="_parent" class="nav__link">
+                <i class="bx bx-book"></i>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#work" target="_parent" class="nav__link">
+                <i class="bx bx-briefcase-alt-2"></i>
+              </a>
+            </li>
+            <li class="nav__item">
+              <a href="#contact" target="_parent" class="nav__link">
+                <i class="bx bx-message-square-detail"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+        <!-- Theme change button -->
+
+        <i class="bx bx-moon change-theme" id="theme-button"></i>
+      </nav>
+    </header>
+
+    <!--=============== MAIN ===============-->
+    <main class="main">
+      <!--=============== HOME ===============-->
+      <section class="home section" id="home">
+        <div class="home__container container grid">
+          <div class="home__data">
+            <span class="home__greeting">Hi, I'm</span>
+            <h1 class="home__name">Kartik Tara</h1>
+            <h3 class="home__education">I Can Debug Anything</h3>
+
+            <div class="home__buttons">
+              <a
+                download=""
+                href="assets/pdf/Kartik Tara-CV.pdf"
+                class="button button--ghost"
+              >
+                Download CV
+              </a>
+              <a href="#about" class="button">About me</a>
+            </div>
+          </div>
+          <div class="home__handle">
+            <img src="assets/img/perfil.png " alt="" class="home__img" />
+          </div>
+          <div class="home__social">
+            <a
+              href="https://www.linkedin.com/in/kartik-tara-2191a9215"
+              target="_blank"
+              class="home__social-link"
+            >
+              <i class="bx bxl-linkedin-square"></i>
+            </a>
+
+            <a
+              href="https://github.com/KartikTara1234"
+              target="_blank"
+              class="home__social-link"
+            >
+              <i class="bx bxl-github"></i>
+            </a>
+
+            <a
+              href="https://www.instagram.com/tarakartik24/"
+              target="_blank"
+              class="home__social-link"
+            >
+              <i class="bx bxl-instagram"></i>
+            </a>
+          </div>
+          <a href="#about" class="home__scroll">
+            <i class="bx bx-mouse home__scroll-icon"></i>
+            <span class="home__scroll-name">Scroll Down</span>
+          </a>
+        </div>
+      </section>
+
+      <!--=============== ABOUT ===============-->
+      <section class="about section" id="about">
+        <span class="section__subtitle">My Intro</span>
+        <h2 class="section__title">About Me</h2>
+
+        <div class="about__container container grid">
+          <img src="assets/img/about.jpg" alt="" class="about__img" />
+
+          <div class="about__data">
+            <div class="about__info">
+              <div class="about__box">
+                <i class="bx bxs-pen about__icon"></i>
+                <h3 class="about__title">Education</h3>
+                <span class="about__subtitle">Studying in grade 10</span>
+              </div>
+              <div class="about__box">
+                <i class="bx bx-medal about__icon"></i>
+                <h3 class="about__title">awards</h3>
+                <span class="about__subtitle">International Level</span>
+              </div>
+              <div class="about__box">
+                <i class="bx bx-support about__icon"></i>
+                <h3 class="about__title">Support</h3>
+                <span class="about__subtitle">online 24/7</span>
+              </div>
+            </div>
+            <p class="about__description">
+              I am passionate about my work. Because I love what I do, I have a
+              steady source of motivation that drives me to do my best. I soon
+              became the world record holder and much more.
+            </p>
+
+            <a href="#contact" class="button">Contact Me</a>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== SKILLS ===============-->
+      <section class="skills section" id="skills">
+        <span class="section__subtitle">My Abilities</span>
+        <h2 class="section__title">My Experience</h2>
+
+        <div class="skills__container container grid">
+          <div class="skills__content">
+            <h3 class="skills__title">Frontend Developer</h3>
+
+            <div class="skills__box">
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">HTML</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">CSS</h3>
+                    <span class="skills__level">advance</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">JavaScript</h3>
+                    <span class="skills__level">advance</span>
+                  </div>
+                </div>
+              </div>
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">Bootstrap</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">React</h3>
+                    <span class="skills__level">Advance</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">Flutter</h3>
+                    <span class="skills__level">Advance</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="skills__content">
+            <h3 class="skills__title">Backend Developer</h3>
+
+            <div class="skills__box">
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">PHP</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">Node Js</h3>
+                    <span class="skills__level">basic</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">Python</h3>
+                    <span class="skills__level">advance</span>
+                  </div>
+                </div>
+              </div>
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">MySQL</h3>
+                    <span class="skills__level">Advance</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">Firebase</h3>
+                    <span class="skills__level">Advance</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">MongoDB</h3>
+                    <span class="skills__level">basic</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="skills__content">
+            <h3 class="skills__title">Robotics</h3>
+
+            <div class="skills__box">
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">Arduino</h3>
+                    <span class="skills__level">Advance</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">Raspberry Pi</h3>
+                    <span class="skills__level">advance</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">Node MCU</h3>
+                    <span class="skills__level">advance</span>
+                  </div>
+                </div>
+              </div>
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">Machine Learning</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">OpenCv</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="skills__content">
+            <h3 class="skills__title">Others</h3>
+
+            <div class="skills__box">
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">Drone</h3>
+                    <span class="skills__level">Advance</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">Unity</h3>
+                    <span class="skills__level">advance</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">Unreal</h3>
+                    <span class="skills__level">Beginners</span>
+                  </div>
+                </div>
+              </div>
+              <div class="skills__group">
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">Blender</h3>
+                    <span class="skills__level">Intermediate</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">Fusion 360</h3>
+                    <span class="skills__level">Advance</span>
+                  </div>
+                </div>
+
+                <div class="skills__data">
+                  <i class="bx bxs-badge-check"></i>
+                  <div>
+                    <h3 class="skills__name">WordPress</h3>
+                    <span class="skills__level">Advance</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== AWARDS ===============-->
+      <section class="services section">
+        <span class="section__subtitle">Here are my</span>
+        <h2 class="section__title">Awards</h2>
+
+        <div class="services__container container grid">
+          <div class="services__card">
+            <h3 class="services__title">
+              National <br />
+              Level
+            </h3>
+
+            <span class="services__button">
+              See more <i class="bx bx-right-arrow-alt services__icon"></i>
+            </span>
+
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <i class="bx bx-x services__modal-close"></i>
+
+                <h3 class="services__modal-title">National Awards</h3>
+                <p class="services__modal-description">
+                  Awards that I won at national Level
+                </p>
+
+                <ul class="services__modal-list">
+                  <li class="servces__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Entitled as Young AI champion by Meta.
+                    </p>
+                  </li>
+                  <li class="servces__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      10 Dec 2021: Selected in INSPIRE Award Scheme for the Year
+                      2021-22 by Government of India Ministry of Science &
+                      Technology, Department of Science & Technology
+                    </p>
+                  </li>
+                  <li class="servces__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Created World Records for creating 20 Robots in 30 minutes
+                      on 18 August, 2020.
+                    </p>
+                  </li>
+                  <li class="servces__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Awarded as Child Prodigy among top 80 in the World.
+                    </p>
+                  </li>
+                  <li class="servces__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      was invited for ISA Award as Speaker in Dubai.
+                    </p>
+                  </li>
+                  <li class="servces__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      created the most economical autonomous mobile operated
+                      ventilator and got recognition in the top “3 young minds”
+                      and also got print and broadcast media coverage at the
+                      national level.
+                    </p>
+                  </li>
+                  <li class="servces__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      In Byju's Young Genius Got Titled As “Young Robot Expert".
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="services__card">
+            <h3 class="services__title">
+              State <br />
+              Level
+            </h3>
+
+            <span class="services__button">
+              See more <i class="bx bx-right-arrow-alt services__icon"></i>
+            </span>
+
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <i class="bx bx-x services__modal-close"></i>
+
+                <h3 class="services__modal-title">State Level Awards</h3>
+                <p class="services__modal-description">
+                  All Awards that I got at state level
+                </p>
+
+                <ul class="services__modal-list">
+                  <li class="servces__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Got the third position in Haryana (State Level) in VVM.
+                    </p>
+                  </li>
+                  <li class="servces__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Spell Bee - Regional Level
+                    </p>
+                  </li>
+                  <li class="servces__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Appreciation award by Deputy Chief Minister of Haryana Mr.
+                      Dushyant Chautala on 26 of January 2021 in Republic
+                      Parade.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+          <div class="services__card">
+            <h3 class="services__title">Others</h3>
+
+            <span class="services__button">
+              See more <i class="bx bx-right-arrow-alt services__icon"></i>
+            </span>
+
+            <div class="services__modal">
+              <div class="services__modal-content">
+                <i class="bx bx-x services__modal-close"></i>
+
+                <h3 class="services__modal-title">All other Awards</h3>
+
+                <ul class="services__modal-list">
+                  <li class="servces__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      3rd level of National Skill Development (NSDC).
+                    </p>
+                  </li>
+                  <li class="servces__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Got 3rd position in English declamation in District Level
+                    </p>
+                  </li>
+                  <li class="servces__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Spell Bee - Regional Level
+                    </p>
+                  </li>
+                  <li class="servces__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Serving as a council member of the School
+                    </p>
+                  </li>
+                  <li class="servces__modal-item">
+                    <i class="bx bx-check services__modal-icon"></i>
+                    <p class="services__modal-info">
+                      Was invited as Cheif guest at derrik international school.
+                    </p>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!--=============== WORK ===============-->
+      <section class="work section" id="work">
+        <div class="work__container container grid"></div>
+      </section>
+
+      <!--=============== TESTIMONIALS ===============-->
+      <section class="testimonial section">
+        <span class="section__subtitle"
+          >Newspaper & other social media platform say</span
+        >
+        <h2 class="section__title">"one Line" about me</h2>
+
+        <div class="testimonial__container container swiper">
+          <div class="swiper-wrapper">
+            <div class="testimonial__card swiper-slide">
+              <img
+                src="data:image/png;base64,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"
+                alt=""
+                class="testimonial__img"
+              />
+              <h3 class="testimonial__name">NDTV</h3>
+              <p class="testimonial__description">
+                Students Design Portable Ventilators To Fight COVID-19
+              </p>
+            </div>
+            <div class="testimonial__card swiper-slide">
+              <img
+                src="data:image/png;base64,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"
+                alt=""
+                class="testimonial__img"
+              />
+              <h3 class="testimonial__name">INDIA TODAY</h3>
+              <p class="testimonial__description">
+                Brothers aged 8 and 12 create ventilator, automatic hand
+                sanitiser machine to battle Covid-19
+              </p>
+            </div>
+
+            <div class="testimonial__card swiper-slide">
+              <img
+                src="https://thechildprodigy.com/wp-content/uploads/2022/03/Black-and-White-Circle-Personal-Logo-1-1.png"
+                alt=""
+                class="testimonial__img"
+              />
+              <h3 class="testimonial__name">Child Prodigy</h3>
+              <p class="testimonial__description">
+                We got a chance to feature these amazing boys who created
+                ventilator at the age of 8 years and 12 years.
+              </p>
+            </div>
+            <div class="testimonial__card swiper-slide">
+              <img
+                src="data:image/jpeg;base64,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"
+                alt=""
+                class="testimonial__img"
+              />
+              <h3 class="testimonial__name">Transcontinental Times</h3>
+              <p class="testimonial__description">
+                Sibling Duo Creates Ventilator And Automated Hand-Sanitizing
+                Machine To Help Fight The Pandemic
+              </p>
+            </div>
+            <div class="testimonial__card swiper-slide">
+              <img
+                src="data:image/jpeg;base64,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"
+                alt=""
+                class="testimonial__img"
+              />
+              <h3 class="testimonial__name">BUZZING CHANDIGARH</h3>
+              <p class="testimonial__description">
+                Child Prodigie who have an aim, become the Master of the Game!
+              </p>
+            </div>
+            <div class="testimonial__card swiper-slide">
+              <img
+                src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAATYAAACjCAMAAAA3vsLfAAABRFBMVEX//////v8AAAAiICH///38//4EfMYhHx8EfMj8/Pz39/f//f/7/vv7/f2MjIwkIiMeHB3e8/nk5OSGhoa5ubmzs7MvLS6tra3JycmgoKBkZGQAdb8AeswKAAAAcL8Ae8LT0dJjY2OYmJg3NzdtbW30//8TEBEAdsx8fHze3t7x7/A8j8ZsbGy3t7eTk5NISEgJfr5PnckAbsdVV1Y9PT3C5PbE6PIyMjJEQkMph8RUUVJlqND///V6d3hqr97k/P+AuduYzuUAcLEGDwxLU1AhJyXR5fFxrst9s9ix0OMIgLCMu+I/kMC92uiHvtar3POgy+ep2+a/2vMzha9hoclspcFoqrpZk8bu8f8Adq3n//kpitDY9v4Aa7B/ueWqzNSVxetMnNqW2O4vltxSn8Nkt+dWqMV4p8w3lcSwz/OTvN7K3u9NFMArAAASjUlEQVR4nO2ce2PaRrqHR7IEunKRBJIsGQksAZIxl2Ag2GAupyF2YsdO4xwfpzjbnG13c7rf///zjgSOk6ZdV0nWaTq/xqDLaBg9fm8zwkWIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiIiOhPJAG/UPc9ij+TwtBQtUYwRgF/30P5U0h21bpXDzNqrr6d2VMbZcVVM7op3/e4vmIFGZBqGoita+W6qplmt+tpBlJMs5Wpm8p9j+9rFI8MHd7kcohYVzW7RkZVM4WmnjHhqGYiQTEr9z3Gr1EG8JFZ1NURGypdXdc3ixXTHOsunNssIHBTl3D7lcIKkkOAo6soVFAGMFa3W/BqQEINByGLo5uxe9+j/OqkKUgvQ1hDat14VGkKjWwuVy1rmrEPQQ4bm2GGSL3vUX510gVW2esKsoyE+t7mfnOPpuni9mazq1bNAKhpZbBAnZQj74lHroLCfa8A8Q2NgyJdVzc1vVLX6Ny4okDNK6iN5gobC7rv8X4dCvSCpsus4iIE4ExXbyjbtII2abdZ0CsCUkKEuaI6r0HaINhihY3ud81uAI5ooFaATK+5b9J0y6DpPa05HvCoHKBMHaFMt7XnuRjcfY/4q1D3v777zqirSNusbOpqiHOAXqnsKmpdyzSbmqubm3qmgfii4XkNnDcINhzXKpvbZcPNCLKKXAN1C/UGUmWkPmJRITC8eqGJTAXKOtNtVvZaRZlgA4Vqt6tWHqmha6KmbCqhtyuohqC6kA0UE3VDtG+iDF9QkIfwbMvrqmSaBQmgTnstb6+rqCbMPjO79Uyapuua6WUftcqG/ujRdqXsmkYdKXtKodGq61WvQawNBdv6dy2j3qW73iDX9eimVzYNM5PxzKBrBA290lXLuaqe9TJei65Umt26NyYLIsBNK5Qfeq4SuIquaabS3CwDKbOi616hrja8dEXzDNMoFAqGYJa75eZf0kk/KPRxEcYaITIqzWaz5TXMQgBFGgroR6papmFmgEJXV8ctXTO0ploIIJEiiv1VN39RYbeThFvOp8COrAiIl+NAJoRhKMSnfo/YN7OGLmyqY09tFLRxQ1dULxOYjXrG8wCBUK7XPdUrQDWGz5h45unV3V1vnKk3FOTWM6YRLSYZ40odtgr4RBk8VPO8gut5ClLGpgtd1As8CqBrBTGo8I2YoZJBZTpU6miPDpFOa0ih64iHugLBMY9W4PUhzSM9TQsU36VVxNMDhFQjpAFUBZtWhQ7gIhMJdBGmpcAPFWkBZeiBgHQF1WlDKO4J0EqDMzxt3PcNfx6BawE2pKAW3Osa264S8rygoDHMPFdnTABj6BG2bVQQApdu8sigeGhfBt/bpEOMzQ1xPtjGF6j0JoJqTqVdpNHNFbYC3b3vG/5sKtMKRQGcXUONsDUqJtgFKMKGImxmCFAyboStqI3h/IDO6YhnAXUGbC5Da3DCLUcdYmwmmGZFi7EpQDrCxqub9DeTZzdXcLQVtnLGjKhF2MCeImyCSutaEGPTPbAvfkxHmfQ2tt1W1GGETeBzdH2NrRhj04IAbPkb0eaNTa2dVEcBYiFs3cam0FXeXcU2EwUuBLQ9CHpQi3gIAw4EOKFFET/GBj2B92NsLnQZYWtk1CodUt9GWsCxjXoPW/TABQQpAWFskBIE1GoibG0IpwRFdXGr7bgRD+mgHqcEHiMZwBETNrQIm4Ea8G5C166Go5v5bRR17v6gIiCjNdCV8aCuVAatyjgXRGe6AxMq3YfbutKFhKCEzWI50Ip7GbW46zZUsxHHqUrX7FYQ2t3e06J9Y2971+3qQFANg83B2MtAyvEGqtvNCLw+2Avu714/o/j1K7/eoz48Az/8rearbeH2VmRn/LoLno/b8bcMC7Ypnv8mLO0T9e8gEEjJRLAREREREREREd2X/ipf8WA+b3ffELYRfonx3NwSu+Ylro982uMPxg8XfgTtE7Dxyle0SMlLs8ePp9OjafwT63w9HxSP8cnp44PTT7E73p9eW0+O74jNVZuZG6nwH1ZFcAc07QmfMIrPK//46eu2XXNq9uGz6eHJ0OKs0gkr4VM8L50+61icXSv1EvXNRELo7Mp22k/ySL7LNFOnq1V6q7VZxaIfdgFXld5WWtWNDVpH1BfX3W5NGjH5K467sks9BvxoeT7kuBN2FF8ts+y5lUpxVp9NMLHG3/LzfRmxU4vjUu3+3RY1CnRua6wIwiCX3kjTOhVqrWqupdC5jY3q+KvBxvBi3rG5dqp0yuBnAGz/ib3DjuIbZGUE2BzH6kt/GBtzujMETeHKZ5bNOfO+eEdsWyYSKaEInLJVHfEo3N96qFTTG1la/Wqwwf3lHS7lcKV+/OxEeg5OOrpZOMTWlgJs69b42wYUvxZzE6uY9/IuvrJn2bZdOmB5ZvmC4+ZH/t3WGQu0h0ReBGxpcMsCEkUU5PbCCl3dygVfETaEsaW40gIMT5RF0d+B2MbzFPgvDDnC5vQpUaQokWJkSsKS5ehNYiSWhfBFibIEb/j4iKGoiCXzPb6ydMhSEpt/dnA+kWS8RitG0U7Ew4u24BUOR0EwHnKBdgFVbG0bWwUMCo0HIdLGGQVFw4AD+B+0jfei69Z3vT70Pocvik0aHZ9LPDt94Us8I00mE19aWxvCdMBpeRFFN8v6I6AGe5NJPp/3JVHkAZyfj+TDMBnUi3o9xAEOt2fBR2Weitv4qxoHwMO7D53l4dOingvFEN/le9j0QWyn63sSYSMM3CCksDFSoRIoAlojpFbfKYkgQttQEPg/AO6PYHMibBRz8Rpg5E/hbvovrxyn/Xgyi7Cd/ffFwUGnc3L5P/7LzsHBRefkxVKSKL//eDgvWaV258znUf+fQ+vKmVvOzuwVc3qxAxdy9g+XHbjg8KBz0mdkabSc7jjXV9ftnemSYY5/gjOHnZPTyXRYsqzh4yVkHr0V3SN/G5tBb3rjsddVK/tl0P524HZprG4ATIt4K5sRoqZhpVWF3fSmxmO6gZrFfwXh6eFdwd0dW5vD7rTgmfzwNRs5IHvctuyUPRy++NnG587+hsM6x+340vmPP+CY1QZs/i9tx07Nlo8da36EFk4t5ZxNIG2mrAN/Mfs5xQG2zvns/E0NLrXOoNvZlcO1+0vozBqesYvZoW2VbOt/H588/QG6sndCFv99EfbB29ioUIfQBuWIZ+jdrWo1VzWzqr4PWWJrLzQHZjOLk64HIYAyBpCINXcPNwZbdIu0Gih6i6YLXwabYy0kf1p6zbIyK0n9tpWyrTcT/1kpQtpnJinbxthk5J/Alp3KM9CcS5UOfGbhgEHOLmtO6gKNJkMOLp1JozNsbdYhVDXTFI6PvZH0FCg7U1Zid2q12vw5hICa46ScHejjHDZs+xm7nqussOmx76GQTufSVQ+hTDUNOXWjAHVxFafa8XYIB7egLcREZKRzuExBJg15tyyE29Us/ouRsPVlsEFZxc2eX5QevI5Kef/Cgl/+9UKQ/JMIWw/SbYzNl/wdjI1bMmdzcG7nuUQt2o5jdzjbefAUjfy/g2nVXjKjM3jnnEMkMVMHA+wxx3P4IAvwocc12649WTKArd122kue77Wxbf7E8qupxA02aoVtY2OFDQ5Xy5DNxVw6m8UlsIg0GrIu1C2AKY2PIBea52jTANgtg8f7d66U/5i1tVMvrqyUNY2wLdocYGvnBUE6ipy0h/Kp2El9TBLusJ3H+PA7w+aHAGF6YlntHjPy39hcqtZhmV4qwsYCtqhk7rEnOIg6eYics1oqVXvw4yiyNu4C+VIejDRln9zMwD6OjYqx0SZOotlcNpuuQlECsS+dzm41wcjAFPE3H1w6m83mWuZWFugV64FY1tCvUuynYnOwD1m9yfFVjE2Kpgb2ji+K7LSEU0KELbI2iGgnOEsM831IwBw3zEusP3vSPpwI/+rnJ/neU2Bo2x0Wnd7CBi2d/tLCVufkISnPSnASymrABsnoNWRUXHM7tR1w4I9jw274DlsBQRKPsOG8C9ggulUraC+3kdvY0gTBxc03iio0Tqdz1WrZ/Uhl8jmsLarbzubTqBp7ysXYoAS7hY1bY8N+O5wcl+AAvEOklwSoQfz+7GJozS/ecDG2HncLG2z1z2oxNplhzkr4A9qTGdgyV5vdwvYraxM/xJYFbLu48MDYcsWQirFltyp8FbAByVwuF+VZWsWNN9LZjWq1QH0BbGANMEug/A7Ea7CeQ3w33Fv2Q2x2hC2qLNqTc5wfHYwt0vKy9MAuHU3YSzh8y9rQChu3OC+Baa2wYYO158sI24MZYgAbh7H5zPvYCivfCrfS2VVsu8FWzIELgrWJGNsGYFNwo+yWrgRBoICCcIBnaBG6qnI3agmw8ejlFEp99PgK31TqLQue8DFs4Gz2DbY8tjZZ8i/A+FJvX/H+mzU2K8bGxNisxbn1HrbI2qwYG8tibKnfwQZgfgsbtcJmhtiBsxDbbm7eyFVzaXDTdBrC4RfCJkriYgF241/aOORwbyG2MU8/wMZga3NStfbk+9I6tgG2EWQR27aO2JF/iD0cOymOX1CA8Cts/R42sTi2RdbGXfk32GQ8CC4RNmqNrcJDZMvilLCagqHAdevpLVyypKEsuZuXJsDGU9JIZpalv+O5PTf0GZ59DeH8Q2xcZCkLHOg5Z4GtTRqdX8MV1o+ArbPCdrrCJq5j24TDsxEHwiBzDkfazoG0dlJsbamPYXtXt30M28b71ob2q7lsbmtlV0gI9D2ElEprqxo5+JeyNpZipZE06ZQOwaBwAQKWdxhNrr5HeW6NbTmEDcDmX2JsqWM8OR1NdnDdav2IZEw1tjYrFTnpytqcHjqyHAecVRpFR+x2/x02eYWN/S1sW9mb2JaNsFGQEt5hw5VvBeo3qDtwUUfh6WimpdMCnqQqjWqWrnwBbDiT9hmJYoDKhTN/fW61U3apBwnuBRdjg+Kfwy45ks7mYGy2M5F6OFbBPAqwsc/a7RSeVAGtOfa/jo+WOCVYhwyP4pTQGy3beDrRG42YDvArHfmjGbZYwCYBNugMY0MxNuF9bEqcEqgbbBTGBlHrFramKOzD2TQd8FTkue4unQGzjJZTqndddLobMwahZTuq2/qs70/6P7bnjnPkH1wDmp1F/mWqFmFj/MfAxeae+/2TDo75qQnLns9LKac985nJs/nzn3Dxmzrrd3ZqgGK4ZP0OLlmGk96zn2NsDNNzYM52hJhXc9uZ/2PCoBl4tg3YeDTBQQCwITD5aH5VxHFqC/9/V/CthHge8M7aoq9ebsA0IV3EzxfwpADXbSgogrtWHwZgrQWwL32rijtAQRXz+6zW9s+3J1bJKpVK7eHw6ur6Gu8c+v50/qD2YD5/OYMzpeth52+TnZIFM/jh/PkUjtRKbzqnUm9nbtnz9s7V1dloAbOEmnV9PV0OH1hWqf120n9ybXPz+fV1+7pkWdfDk9PR8ierdP36/06sB0+e+dLxyRD3/uBF5+zlTgk+t3bdeflKlFlU2I9XOOhBdx9m5MH+frSX63aj5Q56b99V40N0ywv2H0Zb2a6KwjINk/6th90cEOc1fL5i1qt0RfycdRvPy4vTfq8fqXcjPP/Jnz99fd73/X50+jQv5c/+8VPn8jz/Kh+1OT3Ny7zfe3p5eXl4/koYSf7pL0dHswUzyh//8st5Dzx88cvl24vzVe+gV5LoL2eHnbcXr88m0miUP+3FJ0/zi/4i2vpX3x/JMlIMN5bhGgIlhsZ6fy0jdG8Ohe8OizwKzHLrYWuzgJ2XCo1Mt9Uqm3iB827U7mZtUMPz4qp5/ANiYGbJswzEemY0ihKlxMoyLyHfhzkKL+LHpwxD4cWSeDIEB2UZsgkSpRHvSyO8yCqL8WUiFT/AYmUeeoR/rOz7LO4Hz9rjdV0JfwxesmR4ioVfJbr9XUoxHtLqKdhaNzs3t4rXfGFwsBGtS75b76XwMvBd51Z3dVI++bdkgVv0R3r48cK7ccEGvoFIKP6H1nf4b8My7iyObR8cZ1br5mt9uL9aLBej5XbqV8Z1V2h/IJMmhnb7efFHBoCxReNFv93m16P+OLYVqA/3P4S7+rB//+v5nQH8B5V8lL857M/YZaLPJ9gSfT7BlujzCbZEn/8nw3bfItgSiWBLJIItkQi2RCLYEolgSySCLZEItkQi2BKJYEskgi2RCLZEItgSiWBLJIItkQi2RCLYEolgSySCLZEItkQi2BKJYEskgi2RCLZEItgSiWBLJIItkQi2RCLYEolgSySCLZEItkQi2BKJYEskgi2RCLZEItgSiWBLJIItkQi2RCLYEolgS6T/ByxRhUXOVP+9AAAAAElFTkSuQmCC"
+                alt=""
+                class="testimonial__img"
+              />
+              <h3 class="testimonial__name">Education Times</h3>
+              <p class="testimonial__description">
+                Ambala brothers develop ventilator and sanitizer dispenser
+              </p>
+            </div>
+          </div>
+
+          <div class="swiper-pagination"></div>
+        </div>
+      </section>
+
+      <!--=============== CONTACT ===============-->
+      <section class="contact section" id="contact">
+        <span class="section__subtitle">Get in touch</span>
+        <h2 class="section__title">Contact Me</h2>
+
+        <div class="contact__container container grid">
+          <div class="contact__content">
+            <h3 class="contact__title">Talk to Me</h3>
+
+            <div class="contact__info">
+              <div class="contact__card">
+                <i class="bx bx-mail-send contact__card-icon"></i>
+                <h3 class="contact__card-title">Email</h3>
+                <span class="contact__card-data"
+                  >kartikrattan2007@gmail.com</span
+                >
+                <a
+                  href="mailto:kartikrattan2007@gmail.com"
+                  target="_blank"
+                  class="contact__button"
+                  >Write me
+                  <i class="bx bx-right-arrow-alt contact__button-icon"></i>
+                </a>
+              </div>
+              <div class="contact__card">
+                <i class="bx bxl-whatsapp contact__card-icon"></i>
+                <h3 class="contact__card-title">Whatsapp</h3>
+                <span class="contact__card-data">99925-85103</span>
+                <a
+                  href="https://api.whatsapp.com/send?phone=919992585103&text=Hello, more information!"
+                  target="_blank"
+                  class="contact__button"
+                  >Write me
+                  <i class="bx bx-right-arrow-alt contact__button-icon"></i>
+                </a>
+              </div>
+              <div class="contact__card">
+                <i class="bx bx-message-alt contact__card-icon"></i>
+                <h3 class="contact__card-title">Text Message</h3>
+                <span class="contact__card-data">9992585103</span>
+                <a
+                  href="sms:+919992585103&body=hi%20Kartik!%0Awant%20to%20know%20more%20about%20you"
+                  target="_blank"
+                  class="contact__button"
+                  >Write me
+                  <i class="bx bx-right-arrow-alt contact__button-icon"></i>
+                </a>
+              </div>
+            </div>
+          </div>
+          <div class="contact__content">
+            <h3 class="contact__title">Write me your project</h3>
+
+            <form
+              class="contact__form"
+              action="https://getform.io/f/b4d34906-424f-477a-8a24-b63079a7b472"
+              method="post"
+              enctype="multipart/form-data"
+            >
+              <div class="contact__form-div">
+                <label for="" class="contact__form-tag">Name</label>
+                <input
+                  type="text"
+                  placeholder="Insert your name"
+                  class="contact__form-input"
+                  name="name"
+                />
+              </div>
+
+              <div class="contact__form-div">
+                <label for="" class="contact__form-tag">Mail</label>
+                <input
+                  type="email"
+                  placeholder="Insert your email"
+                  class="contact__form-input"
+                  name="email"
+                />
+              </div>
+
+              <div class="contact__form-div">
+                <label for="" class="contact__form-tag">Message</label>
+                <input
+                  type="text"
+                  placeholder="Write your message"
+                  class="contact__form-input contact__form-area"
+                  name="message"
+                />
+              </div>
+
+              <button class="button" type="submit">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!--=============== FOOTER ===============-->
+    <footer class="footer">
+      <div class="footer__container container">
+        <h1 class="footer__title">Kartik Tara</h1>
+
+        <ul class="footer__list">
+          <li>
+            <a href="#about" class="footer__link">About</a>
+          </li>
+          <li>
+            <a href="#work" class="footer__link">Projects</a>
+          </li>
+          <li>
+            <a href="#testimonial" class="footer__link">testimonial</a>
+          </li>
+        </ul>
+
+        <ul class="footer__social">
+          <a
+            href="https://facebook.com/tarakartik24"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="bx bxl-facebook"></i>
+          </a>
+          <a
+            href="
+            https://www.instagram.com/tarakartik24"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="bx bxl-instagram"></i>
+          </a>
+          <a
+            href="
+            https://github.com/KartikTara1234"
+            target="_blank"
+            class="footer__social-link"
+          >
+            <i class="bx bxl-github"></i
+          ></a>
+        </ul>
+        <span class="footer__copy">
+          &#169; Kartik Tara. All rigths reserved
+        </span>
+      </div>
+    </footer>
+
+    <!--=============== SCROLLREVEAL ===============-->
+    <script src="assets/js/scrollreveal.min.js"></script>
+
+    <!--=============== SWIPER JS ===============-->
+    <script src="assets/js/swiper-bundle.min.js"></script>
+
+    <!--=============== MIXITUP FILTER ===============-->
+    <script src="assets/js/mixitup.min.js"></script>
+
+    <!--=============== MAIN JS ===============-->
+    <script src="assets/js/main.js"></script>
+    <script src="assets/js/email.js"></script>
+  </body>
+</html>
