@@ -832,6 +832,7 @@ body.light-theme{
   text-align: center;
   font-size: var(--smaller-font-size) ;
 }
+
 /*=============== SCROLL BAR ===============*/
 
 ::-webkit-scrollbar{

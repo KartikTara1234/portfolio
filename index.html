@@ -12,11 +12,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!--=============== FAVICON ===============-->
-    <link
-      rel="shortcut icon"
-      href="assets/img/favicon.png"
-      type="image/x-icon"
-    />
+    <link rel="shortcut icon" href="assets/img/logo.png" type="image/x-icon" />
 
     <!--=============== BOXICONS ===============-->
     <link
@@ -81,7 +77,22 @@
           <div class="home__data">
             <span class="home__greeting">Hi, I'm</span>
             <h1 class="home__name">Kartik Tara</h1>
-            <h3 class="home__education">I Can Debug Anything</h3>
+            <h2 class="home__education">I'm <span class="auto-type"></span></h2>
+            <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+            <script>
+              var typed = new Typed(".auto-type", {
+                strings: [
+                  "a Debugger.",
+                  "a coder.",
+                  "Child prodigy.",
+                  "an entusiast.",
+                  "natural photographer.",
+                ],
+                typeSpeed: 150,
+                backSpeed: 150,
+                loop: true,
+              });
+            </script>
 
             <div class="home__buttons">
               <a
